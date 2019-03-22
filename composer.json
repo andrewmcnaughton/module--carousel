@@ -3,7 +3,7 @@
     "type": "module",
     "description": "Simple ACF Carousel",
     "keywords": ["carousel"],
-    "homepage": "https://github.com/andrewmcnaughton/module--carousel",
+    "homepage": "https://github.com/andrewmcnaughton/module-carousel",
     "license": "MIT",
     "authors": [
         {
