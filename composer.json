@@ -1,0 +1,19 @@
+{
+    "name": "Instance/Carousel",
+    "type": "module",
+    "description": "Simple ACF Carousel",
+    "keywords": ["carousel"],
+    "homepage": "https://github.com/andrewmcnaughton/module--carousel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andy",
+            "email": "andrew@andymc.com.au",
+            "homepage": "https://andymc.com.au",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
