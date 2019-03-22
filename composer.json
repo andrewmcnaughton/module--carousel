@@ -1,5 +1,5 @@
 {
-    "name": "Instance/Carousel",
+    "name": "instance/carousel",
     "type": "module",
     "description": "Simple ACF Carousel",
     "keywords": ["carousel"],
