@@ -1,6 +1,6 @@
 {
     "name": "instance/carousel",
-    "type": "wordpress-plugin",
+    "type": "module",
     "description": "Simple ACF Carousel",
     "keywords": ["carousel"],
     "homepage": "https://github.com/andrewmcnaughton/module--carousel",
@@ -12,8 +12,5 @@
             "homepage": "https://andymc.com.au",
             "role": "Developer"
         }
-    ],
-    "require": {
-        "php": ">=5.3.0"
-    }
+    ]
 }
