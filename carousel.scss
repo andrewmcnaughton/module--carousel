@@ -1,0 +1,74 @@
+.block-header-carousel {
+    position: relative;
+    &__slide {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        &:after {
+            display: inline-block;
+            content: '';
+            padding-bottom: 34.722222222%;
+
+            @include respond-to('mobile') {
+                padding-bottom: 80%;
+            }
+        }
+    }
+
+    .swiper-pagination {
+        position: absolute;
+        left: 50% !important;
+        bottom: 1.5rem !important;
+        text-align: left;
+        transform: translateX(-50%);
+
+        @include respond-to('mobile') {
+            padding-left: 4%;
+        }
+
+
+        .swiper-pagination-bullet {
+            border: solid 2px $white;
+            background-color: transparent;
+            height: 16px;
+            width: 16px;
+            opacity: 1;
+            position: relative;
+
+            &:after {
+                content: '';
+                display: inline-block;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background-color: $orange;
+                opacity: 0;
+                height: 9px;
+                width:  9px;
+                border-radius: 50%;
+            }
+
+            &-active {
+                &:after {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    > .button {
+        position: absolute;
+        bottom: 3.75rem;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 5;
+
+        display: none;
+
+        @include respond-to('mobile') {
+            display: inline-block;
+        }
+    }
+}
