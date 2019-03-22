@@ -1,6 +1,6 @@
 {
     "name": "instance/carousel",
-    "type": "module",
+    "type": "wordpress-plugin",
     "description": "Simple ACF Carousel",
     "keywords": ["carousel"],
     "homepage": "https://github.com/andrewmcnaughton/module--carousel",
